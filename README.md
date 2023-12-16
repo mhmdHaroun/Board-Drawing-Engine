@@ -19,7 +19,8 @@ Board Drawing Engine
 - The pieces of playing in each game are different
 - The board cell is different in terms of colors and each place shape (circular in connect 4 for example)
 
-  Controller: It does two things:
+  **Controller**:
+   It does two things:
       1. Validates the user input :
           according to the rules of the game. For Tic-Tac-Toe you are allowed to play in any empty place, in Connect-4 you are allowed to play
           in any column that has an empty place and the piece must fall in the first empty place in the column while in Chess each piece has different allowed moves. In
